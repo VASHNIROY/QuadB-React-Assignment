@@ -1,0 +1,43 @@
+.main-container{
+    height: 260vh;
+    color: white;
+    background-color: black;
+}
+
+@media screen and (min-width: 760px) and (max-width: 1020px){
+    .main-container{
+        height: 170vh;
+        color: white;
+        background-color: black;
+    }
+}
+
+@media screen and (min-width: 310px) and (max-width: 759px){
+    .main-container{
+        height: 460vh;
+        color: white;
+        width: 100%;
+        background-color: black;
+    }
+    
+ 
+ }
+
+.movie-items-un-ordered-list{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8%;
+}
+
+@media screen and (min-width: 310px) and (max-width: 759px){
+    .movie-items-un-ordered-list{
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 8%;
+        width: 100%;
+    }
+ 
+ }

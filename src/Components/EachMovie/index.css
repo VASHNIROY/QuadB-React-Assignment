@@ -1,0 +1,118 @@
+.movie-list-item-container{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    cursor: pointer;
+    
+}
+
+@media screen and (min-width: 310px) and (max-width: 759px){
+    .movie-list-item-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px;
+        cursor: pointer;
+        
+    }
+ 
+ }
+
+.title-container{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-top: 10px;
+}
+.rating-container{
+    display: flex;
+    align-items: center;
+    background-color: #4970da;
+    border-radius: 10px;
+    width: 25%;
+    height: 25px;
+    justify-content: center;
+    align-self: center;
+}
+
+
+@media screen and (min-width: 310px) and (max-width: 759px){
+    .rating-container{
+        display: flex;
+        align-items: center;
+        background-color: #4970da;
+        border-radius: 10px;
+        width: 30%;
+        height: 20px;
+        justify-content: center;
+        align-self: center;
+    }
+ 
+ }
+
+@media screen and (min-width: 760px) and (max-width: 1020px){
+    .rating-container{
+        display: flex;
+        align-items: center;
+        background-color: #4970da;
+        border-radius: 10px;
+        width: 30%;
+        height: 20px;
+        justify-content: center;
+        align-self: center;
+    }
+ }
+
+.title{
+    font-size: 20px;
+}
+
+@media screen and (min-width: 310px) and (max-width: 759px){
+    .title{
+        font-size: 15px;
+    }
+ 
+ }
+
+@media screen and (min-width: 760px) and (max-width: 1020px){
+   .title{
+    font-size: 12px;
+   }
+
+}
+.poster-img{
+    width: 60%;
+}
+
+.rating{
+    margin-top: 15px;
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+@media screen and (min-width: 760px) and (max-width: 1020px){
+    .star{
+        height: 13px;
+    }
+    .rating{
+        margin-top: 15px;
+        margin-left: 5px;
+        font-size: 12px;
+    }
+    
+ }
+
+.link-style{
+    color: white;
+    text-decoration: none;
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

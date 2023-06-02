@@ -1,0 +1,102 @@
+.page-container{
+    background-color: black;
+}
+.movie-page-main-container{
+    height: 91vh;
+    background-color: black;
+    display: flex;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 310px) and (max-width: 759px){
+    .movie-page-main-container{
+        height: 91vh;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+ 
+ }
+
+.movie-poster{
+    width: 30%;
+    height: 80%;
+}
+
+
+
+
+.book-genre-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.book-btn{
+    background-color: transparent;
+    border: solid 3px #4c6bce;
+    color: white;
+    border-radius: 15px;
+}
+
+@media screen and (min-width: 310px) and (max-width: 759px){
+    .book-btn{
+        background-color: transparent;
+        border: solid 3px #4c6bce;
+        color: white;
+        height: 20px;
+        display: flex;
+        font-size: 10px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+    }
+ }
+
+.movie-title-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+}
+.details-main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.details-container{
+    display: flex;
+}
+
+.side-headings{
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    align-self: flex-start;
+}
+
+@media screen and (min-width: 310px) and (max-width: 759px){
+    .side-headings{
+        font-weight: bold;
+        font-size: 15px;
+        display: flex;
+        align-self: flex-start;
+    }
+    .story-description{
+        font-size: 10px;
+    }
+ 
+ }
